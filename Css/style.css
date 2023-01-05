@@ -7,15 +7,15 @@
 /* navbar and header starts here */
 .header{
     background-color: #fef7f3;
-   background-image: url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-   
+   background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left;
+    background-size: contain, contain;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 100px;
     align-items: center;
 }
 .nav-title{
@@ -28,15 +28,16 @@ nav ul{
 }
 nav li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 nav li a{
     text-decoration: none;
     color: black;
 }
+
 .btn-primary{
     height: 60px;
-    background-color: hwb(41 3% 3%);
+    background-color: #FD6E0A;
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -44,12 +45,12 @@ nav li a{
     padding: 18px 35px;
 }
 .text-primary{
-    color: orange;
+    color: #FD6E0A;
 }
 /* banner section start here */
 .banner{
     display: flex;
-    margin: 0 80px;
+    margin: 0 100px;
     align-items: center;
 }
 
@@ -79,6 +80,9 @@ nav li a{
     font-weight: 700;
     border: 0;
     padding: 18px 35px;
+}
+.banner img{
+    width: 320px;
 }
 /* main section start here */
 main{
