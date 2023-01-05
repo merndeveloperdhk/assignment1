@@ -36,7 +36,7 @@ nav li a{
 }
 .btn-primary{
     height: 60px;
-    background-color: orange;
+    background-color: hwb(41 3% 3%);
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -94,7 +94,7 @@ main{
 }
 .section-title{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -138,10 +138,10 @@ main{
     object-fit: cover;
 }
 .skill-title{
-    text-align: center;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .skill-description{
@@ -150,4 +150,36 @@ main{
 /* Resume section start here */
 .resume-section{
     margin-top: 90px;
+}
+.res-title{
+    background-color: rgba(0, 255, 255, 0.123);
+    border-radius: 10px;
+    
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+.resume-item{
+    margin: 30px 0;
+}
+.resume-item .title{
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.resume-item .sub-title{
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.resume-item .description{
+    color: grey;
+    
+}
+.resume-btn{
+    margin-top: 20px;
+    text-align: center;
 }
