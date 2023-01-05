@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+   
+    font-family: 'Open Sans', sans-serif;;
+}
+
+/* navbar and header starts here */
+.header{
+    background-color: #fef7f3;
+    background-image: ;
+    background-repeat: no-repeat;
+    
+    background-position: bottom right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.btn-primary{
+    height: 60px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+.text-primary{
+    color: orange;
+}
+/* banner section start here */
+.banner{
+    display: flex;
+    margin: 0 80px;
+    align-items: center;
+}
+
+.banner h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 65px;
+    padding: 20px 0 10px;
+}
+.banner p{
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 700px;
+}
+.banner img{
+    padding-left: 220px;
+}
+.btn-secondary{
+    height: 60px;
+    background-color: #afa899;
+    border-radius: 5px;
+    color: rgb(3, 3, 3);
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+/* main section start here */
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* about section start here */
+.about{
+    margin-top: 130px;
+    background-color: #fef7f3;
+    border-radius: 5px;
+    padding: 70px 90px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: grey;
+}
+.about .info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
