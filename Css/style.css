@@ -212,6 +212,10 @@ main{
     padding-left: 20px;
    
 }
+.right-title{
+    margin-bottom: 25px;
+    color: #FD6E0A;
+}
 .contact a{
     text-decoration: none;
 }
