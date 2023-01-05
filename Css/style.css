@@ -9,13 +9,12 @@
     background-color: #fef7f3;
     /* background-image: ; */
     background-repeat: no-repeat;
-    
     background-position: bottom right;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 20px 80px;
+    padding: 20px 80px;
     align-items: center;
 }
 .nav-title{
@@ -188,7 +187,7 @@ main{
     display: flex;
     gap: 50px;
     background-color: #fef7f3;
-    padding: 50px 90px;
+    padding: 130px 200px 50px;
     align-items: center;
 }
 .soci-icon{
