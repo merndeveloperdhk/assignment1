@@ -7,7 +7,7 @@
 /* navbar and header starts here */
 .header{
     background-color: #fef7f3;
-    /* background-image: ; */
+   background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
    
