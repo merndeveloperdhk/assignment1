@@ -7,7 +7,7 @@
 /* navbar and header starts here */
 .header{
     background-color: #fef7f3;
-    background-image: ;
+    /* background-image: ; */
     background-repeat: no-repeat;
     
     background-position: bottom right;
@@ -180,6 +180,34 @@ main{
     
 }
 .resume-btn{
-    margin-top: 20px;
+    margin: 20px 0;
     text-align: center;
+}
+/* Contact section */
+.contact{
+    display: flex;
+    gap: 50px;
+    background-color: #fef7f3;
+    padding: 50px 90px;
+    align-items: center;
+}
+.soci-icon{
+    width: 30px;
+    margin-top: 15px;
+    object-fit: cover;
+    padding: 10px;
+}
+.contact-input{
+    height: 40px;
+}
+.contact-input,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 20px;
+   
+}
+.contact a{
+    text-decoration: none;
 }
